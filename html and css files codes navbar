@@ -1,0 +1,87 @@
+//html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="n1">
+            <ul class="ui1">
+                <li id="li1"><a href="index.html" style="text-decoration: none; color: white;">Home</a></li>
+                <li id="li1"><a href="about.html"style="text-decoration: none; color: white;">About</a></li>
+                <li id="li1"><a href="contact.html"style="text-decoration: none; color: white;">Contact</a></li>
+            </ul>
+            <div class="search">
+                <form action="search.php" method="POST">
+                    <input type="text" name="search" placeholder="Enter Search" style="width: 300px; height: 30px; border-radius: 10px; border: 2px solid black; margin-top: -20px; justify-content: center; ">
+                    <button type="submit" name="submit-search" style="width: 90px; height: 30px; border-radius: 10px;" class="btns">Search</button>
+                </form>
+        </nav>
+        
+    </header>
+</body>
+</html>
+// css file 
+body
+{
+  color: white;
+}
+.n1
+{
+    background-color: #da1717;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+}
+.ui1
+{
+  font-size: 20px;
+  display: flex;
+  justify-content: right; 
+
+}
+#li1
+{
+
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
+  color: white;
+  width: 90px;
+  height: 20px;
+  border:2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  background-color: #da5f17;
+  margin-right: 30px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+#li1:hover
+{
+  background-color: rgb(77, 152, 218);
+  color: black;
+  font-weight: bolder;
+}
+.search
+{
+  
+  border-radius: 10px;
+  margin-top: -50px;
+  color: white;
+  margin-left: 30px;
+  
+}
+.btns:hover{
+  background-color: rgb(77, 152, 218);
+  color: black !important;
+  font-weight: bolder;
+  font-weight: bolder;
+  border: 2px solid black;
+}
